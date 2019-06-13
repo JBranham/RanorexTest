@@ -22,7 +22,7 @@ namespace MyWebVIPTest
     /// <summary>
     /// The class representing the MyWebVIPTestRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     [RepositoryFolder("01c5e881-187a-4fa0-90ca-eb7438950196")]
     public partial class MyWebVIPTestRepository : RepoGenBaseFolder
     {
@@ -76,7 +76,7 @@ namespace MyWebVIPTest
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class MyWebVIPTestRepositoryFolders
     {
         /// <summary>
