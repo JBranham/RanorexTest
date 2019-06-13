@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
+﻿<repository
 id="da3b2bc7-526d-47dd-b196-99cdf4d25f37"
 name="MyWebVIPTestRepository"
 rxversion="8.3">
@@ -79,7 +78,7 @@ rxversion="8.3">
 			addcaps="unknown,webelement,tdtag"
 			capname="tdtag"
 			id="fdd88167-94cf-4273-9873-0bb034b7af78"
-			name="Count"
+			name="CounterObj"
 			refimgid="a1ea94ff-1939-405c-8a67-70df7b0b65f0"
 			refpath="/dom[@domain='www.ranorex.com']//td[#'count']"
 			searchtimeout="30000ms">

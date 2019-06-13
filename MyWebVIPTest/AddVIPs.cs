@@ -97,8 +97,8 @@ namespace MyWebVIPTest
             repo.RanorexVIPDatabaseTestWebApplicatio.InputTagAdd.Click("25;12");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='VIP count: 1') on item 'RanorexVIPDatabaseTestWebApplicatio.Count'.", repo.RanorexVIPDatabaseTestWebApplicatio.CountInfo, new RecordItemIndex(5));
-            Validate.AttributeEqual(repo.RanorexVIPDatabaseTestWebApplicatio.CountInfo, "InnerText", "VIP count: 1");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='VIP count: 1') on item 'RanorexVIPDatabaseTestWebApplicatio.CounterObj'.", repo.RanorexVIPDatabaseTestWebApplicatio.CounterObjInfo, new RecordItemIndex(5));
+            Validate.AttributeEqual(repo.RanorexVIPDatabaseTestWebApplicatio.CounterObjInfo, "InnerText", "VIP count: 1");
             Delay.Milliseconds(100);
             
         }

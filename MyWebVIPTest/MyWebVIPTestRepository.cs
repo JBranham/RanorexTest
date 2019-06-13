@@ -89,7 +89,7 @@ namespace MyWebVIPTest
             MyWebVIPTestRepositoryFolders.RadioButtons_RootedFolderFolder _radiobuttons_rootedfolder;
             MyWebVIPTestRepositoryFolders.InputFields_SimpleFolderFolder _inputfields_simplefolder;
             RepoItemInfo _inputtagaddInfo;
-            RepoItemInfo _countInfo;
+            RepoItemInfo _counterobjInfo;
 
             /// <summary>
             /// Creates a new RanorexVIPDatabaseTestWebApplicatio  folder.
@@ -101,7 +101,7 @@ namespace MyWebVIPTest
                 _radiobuttons_rootedfolder = new MyWebVIPTestRepositoryFolders.RadioButtons_RootedFolderFolder(this);
                 _inputfields_simplefolder = new MyWebVIPTestRepositoryFolders.InputFields_SimpleFolderFolder(this);
                 _inputtagaddInfo = new RepoItemInfo(this, "InputTagAdd", ".//input[#'Add']", 30000, null, "161832a9-d4f0-4a46-b6c2-d4a9275c9054");
-                _countInfo = new RepoItemInfo(this, "Count", ".//td[#'count']", 30000, null, "fdd88167-94cf-4273-9873-0bb034b7af78");
+                _counterobjInfo = new RepoItemInfo(this, "CounterObj", ".//td[#'count']", 30000, null, "fdd88167-94cf-4273-9873-0bb034b7af78");
             }
 
             /// <summary>
@@ -153,26 +153,26 @@ namespace MyWebVIPTest
             }
 
             /// <summary>
-            /// The Count item.
+            /// The CounterObj item.
             /// </summary>
             [RepositoryItem("fdd88167-94cf-4273-9873-0bb034b7af78")]
-            public virtual Ranorex.TdTag Count
+            public virtual Ranorex.TdTag CounterObj
             {
                 get
                 {
-                    return _countInfo.CreateAdapter<Ranorex.TdTag>(true);
+                    return _counterobjInfo.CreateAdapter<Ranorex.TdTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Count item info.
+            /// The CounterObj item info.
             /// </summary>
             [RepositoryItemInfo("fdd88167-94cf-4273-9873-0bb034b7af78")]
-            public virtual RepoItemInfo CountInfo
+            public virtual RepoItemInfo CounterObjInfo
             {
                 get
                 {
-                    return _countInfo;
+                    return _counterobjInfo;
                 }
             }
 
