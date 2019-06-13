@@ -45,6 +45,15 @@ rxversion="8.3">
 				http://www.ranorex.com/web-testing-examples/vip/
 			</url>
 		</openwebsiterecorditem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Ranodom Action
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
 	</recorditems>
 	<repository
 	id="da3b2bc7-526d-47dd-b196-99cdf4d25f37"
